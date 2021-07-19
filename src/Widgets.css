@@ -1,0 +1,14 @@
+/* Chrome safari */
+.widgets::-webkit-scrollbar {
+  display: none;
+}
+
+/* Edge firefox */
+.widgets {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: flex;
+  flex: 0.27;
+  flex-direction: column;
+  right: 0;
+}
